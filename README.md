@@ -12,8 +12,8 @@ A 7-minute Japanese (JLPT N4–N3) classroom presentation about HENNGE K.K., bui
 
 ## Files
 
-- `index.html`: presentation (15 slides; slide 1 is the team thank-you intro)
-- `words.html`: mobile vocabulary page (36 numbered words, furigana, English meaning)
+- `index.html`: presentation (16 slides: 1 = how to use the vocabulary QR, 2 = team thank-you, then the talk)
+- `words.html`: mobile vocabulary page (33 numbered words + #34 data source; furigana, English, Chinese, Nepali, Turkish)
 - `hennge.html`: script / question page (`#script`, `#questions`)
 
 ## Data notes (please double-check before presenting)
