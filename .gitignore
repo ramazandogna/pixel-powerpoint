@@ -31,3 +31,6 @@ Thumbs.db
 
 # Tool caches
 .eslintcache
+
+# LibreOffice lock files
+.~lock.*#
