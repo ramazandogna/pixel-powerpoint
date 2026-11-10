@@ -25,4 +25,4 @@ A 7-minute Japanese (JLPT N4–N3) classroom presentation about HENNGE K.K., bui
 - Not yet verified: former name HDE, rename and listing in 2019, HQ in Shibuya, the name coming from 「変化」, and the 2-day remote example calendar.
 
 ---
-powered by [Ramazan Doğna](http://ramazandogna.com/)
+powered by [Ramazan Dogna](http://ramazandogna.com/)
