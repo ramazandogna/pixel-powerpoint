@@ -1,0 +1,34 @@
+{
+  "name": "hennge-pixel-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixel-art Japanese (JLPT N4) company-research presentation about HENNGE K.K., with a mobile vocabulary list and a speaker script.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.{js,vue,css}\" \"*.{js,json,md}\""
+  },
+  "dependencies": {
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "eslint": "^9.39.5",
+    "eslint-plugin-vue": "^9.33.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10",
+    "vite": "^6.4.6"
+  },
+  "engines": {
+    "node": ">=20.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramazandogna/pixel-powerpoint.git"
+  },
+  "author": "Ramazan Dogna (http://ramazandogna.com/)"
+}

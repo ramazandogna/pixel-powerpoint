@@ -1,1 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local-only notes and briefs (not published)
+docs/
+
+# Teacher's example deck (not ours to publish)
 教師用デモ発表例_PPT_.pptx
+~$*.pptx
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tool caches
+.eslintcache

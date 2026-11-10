@@ -1,0 +1,21 @@
+/*
+ * Character idle animations (hop, wander, gentle dance) and QR card base.
+ * Files are imported in numeric order; later files intentionally refine earlier ones.
+ */
+/* periodic hops */
+.slide.active .hop,.slide.active .tspr,.slide.active .speech .spr,.slide.active .final .spr,.slide.active .lock .spr{animation:hop 6s steps(4) infinite}
+.slide.active .tcard:nth-child(2) .tspr{animation-delay:.4s}.slide.active .tcard:nth-child(3) .tspr{animation-delay:.8s}.slide.active .tcard:nth-child(4) .tspr{animation-delay:1.2s}
+@keyframes hop{0%,82%,100%{transform:none}86%{transform:translateY(-18px)}90%{transform:none}94%{transform:translateY(-8px)}}
+/* qr */
+.qrbox{position:absolute;right:34px;top:30px;z-index:4;display:flex;flex-direction:column;align-items:center;gap:6px;background:var(--cream);color:var(--ink);text-decoration:none;padding:12px 12px 6px;border:5px solid var(--orange);border-radius:12px;transform:rotate(2deg);box-shadow:5px 5px 0 rgba(0,0,0,.35);font-size:22px;line-height:1.5}
+.qrbox .qr{width:190px;height:190px;display:block}
+.cover .qrbox rt{color:var(--muted)}
+/* s3: walk out of the card and come back */
+.slide.active .me-spr{position:relative;z-index:5;animation:wander 10s linear infinite}
+@keyframes wander{0%,50%{transform:none}53%{transform:translate(60px,-20px)}58%{transform:translate(260px,-60px)}62%{transform:translate(420px,30px)}66%{transform:translate(420px,30px) translateY(-20px)}70%{transform:translate(420px,30px)}74%{transform:translate(200px,90px) scaleX(-1)}80%{transform:translate(40px,10px) scaleX(-1)}84%{transform:none}88%{transform:translateY(-16px)}92%,100%{transform:none}}
+/* s2: gentle Nepali dance for Sushma & Sandip */
+.slide.active .team .tcard:nth-child(2) .tspr,.slide.active .team .tcard:nth-child(3) .tspr{transform-origin:50% 100%;animation:ndance 2.4s ease-in-out infinite}
+.slide.active .team .tcard:nth-child(3) .tspr{animation-delay:-1.2s}
+@keyframes ndance{0%,100%{transform:translateX(0) rotate(0)}20%{transform:translateX(-10px) rotate(-5deg) translateY(-3px)}40%{transform:translateX(0) rotate(0)}60%{transform:translateX(10px) rotate(5deg) translateY(-3px)}80%{transform:translateX(0) rotate(0) translateY(-6px)}}
+.foot .pgw{display:flex;align-items:center;gap:12px}
+.cred{font-size:16px;color:var(--cream);opacity:.75;text-decoration:none;letter-spacing:.5px}.cred b{font-weight:400;color:var(--orange)}.cred:hover{opacity:1}
