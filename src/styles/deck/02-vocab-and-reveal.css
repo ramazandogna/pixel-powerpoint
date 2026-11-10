@@ -1,0 +1,14 @@
+/*
+ * Vocabulary highlight + number badge, entrance (.rv) and step (.frag) reveal.
+ * Files are imported in numeric order; later files intentionally refine earlier ones.
+ */
+/* vocab */
+.v{position:relative;padding:0 .12em;isolation:isolate}
+.v::before{content:"";position:absolute;inset:.15em 0 -.05em;background:var(--orange);opacity:.4;border-radius:6px;z-index:-1}
+.dark .v::before,.cover .v::before{background:#f08a4b}
+.v::after{content:attr(data-n);position:absolute;bottom:-.35em;right:-.7em;background:var(--red);color:#fff;font-size:18px;line-height:1;min-width:16px;padding:4px 5px;border-radius:9px;text-align:center;border:2px solid var(--cream)}
+/* reveal */
+.slide.active .rv{animation:pop .55s cubic-bezier(.2,1.4,.4,1) both;animation-delay:calc(var(--d,0)*130ms + 250ms)}
+@keyframes pop{from{opacity:0;transform:translateY(24px) scale(.96)}to{opacity:1;transform:none}}
+.frag{opacity:0;transform:translateY(24px);transition:opacity .45s,transform .45s cubic-bezier(.2,1.4,.4,1);pointer-events:none}
+.frag.on{opacity:1;transform:none}
