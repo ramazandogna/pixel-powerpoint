@@ -8,4 +8,4 @@
 #ctrl button{font:inherit;font-size:12px;line-height:1;background:var(--dark);color:var(--orange);border:2px solid var(--orange);border-radius:6px;padding:3px 7px;cursor:pointer}
 #ctrl button:focus-visible{outline:3px solid #fff}
 #bar{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:6px;background:var(--orange);width:0;transition:width .5s;z-index:20}
-@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;animation-delay:0s!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
