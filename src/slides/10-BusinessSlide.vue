@@ -24,7 +24,7 @@ import Vocab from '@/components/deck/Vocab.vue'
         <div class="bad"><span>👾</span><b>✕</b></div>
       </div>
       <div class="dark panel big-panel rv" style="--d:2">
-        <div class="eyebrow">クラウドセキュリティのサービス「HENNGE One」</div>
+        <div class="eyebrow">クラウドセキュリティのサービス（Cloud Security Service）「HENNGE One」</div>
         <ul class="pts">
           <li><ruby>会社<rt>かいしゃ</rt></ruby>のメールや<Vocab word="情報" />を<Vocab word="安全" />に<Vocab word="守" />ります。</li>
           <li><ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>外<rt>そと</rt></ruby>からも、<Vocab word="安全" />にログインできます。</li>
