@@ -2,6 +2,8 @@
 import Slide from '@/components/deck/Slide.vue'
 import Flag from '@/components/pixel/Flag.vue'
 import PixelIcon from '@/components/pixel/PixelIcon.vue'
+import PixelPic from '@/components/pixel/PixelPic.vue'
+import Vocab from '@/components/deck/Vocab.vue'
 import PixelSprite from '@/components/pixel/PixelSprite.vue'
 </script>
 
@@ -10,9 +12,11 @@ import PixelSprite from '@/components/pixel/PixelSprite.vue'
     <div class="label"><PixelIcon name="team" /><ruby>私<rt>わたし</rt></ruby>たちのチーム</div>
     <div class="content">
       <div class="slogans">
-        <div class="slogan rv" style="--d:1">🌏 <ruby>３つ<rt>みっつ</rt></ruby>の<ruby>国<rt>くに</rt></ruby>、<ruby>1つ<rt>ひとつ</rt></ruby>のチーム</div>
-        <div class="slogan rv" style="--d:2">🗾 なぜ<ruby>日本<rt>にほん</rt></ruby>に？ ― <ruby>新<rt>あたら</rt></ruby>しいことを<ruby>学<rt>まな</rt></ruby>ぶため</div>
-        <div class="slogan rv" style="--d:3">🛡 なぜHENNGE？ ― <ruby>世界<rt>せかい</rt></ruby>の<ruby>人<rt>ひと</rt></ruby>と<ruby>働<rt>はたら</rt></ruby>けるから</div>
+        <div class="slogan big rv" style="--d:1"><PixelPic name="globe" class="spin" :size="44" /><ruby>3つ<rt>みっつ</rt></ruby>の<ruby>国<rt>くに</rt></ruby>から<ruby>1つ<rt>ひとつ</rt></ruby>のチーム</div>
+        <div class="slogan-row">
+          <div class="slogan q rv" style="--d:2">なぜ<ruby>日本<rt>にほん</rt></ruby>？</div>
+          <div class="slogan q rv" style="--d:3">なぜHENNGE？<small><Vocab word="発表" />の<ruby>最後<rt>さいご</rt></ruby>にわかります</small></div>
+        </div>
       </div>
       <div class="team">
         <div class="tcard rv">

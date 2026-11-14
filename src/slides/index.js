@@ -2,8 +2,8 @@
 import GuideSlide from './01-GuideSlide.vue'
 import TeamThanksSlide from './02-TeamThanksSlide.vue'
 import CoverSlide from './03-CoverSlide.vue'
-import TeamSlide from './04-TeamSlide.vue'
-import SelfIntroSlide from './05-SelfIntroSlide.vue'
+import TeamSlide from './05-TeamSlide.vue'
+import SelfIntroSlide from './04-SelfIntroSlide.vue'
 import RequestSlide from './06-RequestSlide.vue'
 import EmailSlide from './07-EmailSlide.vue'
 import WhyHenngeSlide from './08-WhyHenngeSlide.vue'
@@ -20,8 +20,8 @@ export const SLIDES = [
   GuideSlide,
   TeamThanksSlide,
   CoverSlide,
-  TeamSlide,
   SelfIntroSlide,
+  TeamSlide,
   RequestSlide,
   EmailSlide,
   WhyHenngeSlide,

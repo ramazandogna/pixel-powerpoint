@@ -50,9 +50,16 @@ watch(replayTick, async () => {
   replaying.value = false
 })
 
+// Steps = highest step number used (several elements may share one step).
+function countSteps(el) {
+  const frags = [...el.querySelectorAll('.frag')]
+  const nums = frags.flatMap((f) => [...f.classList].filter((c) => /^fs\d+$/.test(c)).map((c) => +c.slice(2)))
+  return nums.length ? Math.max(...nums) : frags.length
+}
+
 onMounted(() => {
   deck.registerSlide(index, {
-    stepCount: root.value.querySelectorAll('.frag').length,
+    stepCount: countSteps(root.value),
     meta: { qr: props.qr, question: props.question },
   })
 })

@@ -300,6 +300,15 @@ export const VOCABULARY = [
     "zh": "感想",
     "ne": "विचार, अनुभव",
     "tr": "izlenim, düşünce"
+  },
+  {
+    "n": 35,
+    "word": "早口",
+    "reading": "はやくち",
+    "en": "fast talking, speed (talk)",
+    "zh": "说话快",
+    "ne": "छिटो बोल्ने",
+    "tr": "hızlı konuşma"
   }
 ]
 

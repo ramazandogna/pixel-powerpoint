@@ -2,6 +2,7 @@
 /** The presentation: a 1600×900 stage scaled to the window, one slide visible at a time. */
 import { computed, onBeforeUnmount, onMounted } from 'vue'
 import DeckControls from '@/components/deck/DeckControls.vue'
+import MobileGate from '@/components/deck/MobileGate.vue'
 import SlideHost from '@/components/deck/SlideHost.vue'
 import StepDots from '@/components/deck/StepDots.vue'
 import { slideFromHash, useDeck } from '@/composables/useDeck.js'
@@ -26,4 +27,5 @@ onBeforeUnmount(() => clearInterval(replayTimer))
 <template>
   <div id="bar" :style="{ width: progress }"></div>
   <div id="stage" :style="{ '--s': scale }"><StepDots /><DeckControls /><SlideHost v-for="(slide, i) in SLIDES" :key="i" :index="i"><component :is="slide" /></SlideHost></div>
+  <MobileGate />
 </template>

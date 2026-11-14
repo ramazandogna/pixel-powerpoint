@@ -48,44 +48,40 @@ export const SCRIPT_SECTIONS = [
     ]
   },
   {
-    "title": "私[わたし]たちのチーム",
-    "seconds": 20,
+    "title": "早口[はやくち]自己紹介[じこしょうかい]",
+    "seconds": 15,
     "lines": [
       {
-        "jp": "私[わたし]たちは4人[よにん]のチームです。トルコ、ネパール、中国[ちゅうごく]から来[き]ました。",
-        "en": "We are a team of four, from Turkey, Nepal and China."
+        "jp": "早口[はやくち]で自己紹介[じこしょうかい]をします！ 26歳[にじゅうろくさい]、トルコから来[き]ました。",
+        "en": "Speed self-intro! I'm 26, from Turkey."
       },
       {
-        "jp": "国[くに]はちがいますが、みんな日本[にほん]で新[あたら]しいことを学[まな]んでいます。",
-        "en": "Our countries are different, but we are all learning new things in Japan."
+        "jp": "大学[だいがく]でコンピューター工学[こうがく]を勉強[べんきょう]して、エンジニアとして3年[さんねん]働[はたら]きました。",
+        "en": "I studied computer engineering and worked as an engineer for 3 years."
+      },
+      {
+        "jp": "働[はたら]くのにとてもいい会社[かいしゃ]だと思[おも]って、友[とも]だちにHENNGEをすすめました。",
+        "en": "I think it's a really good place to work, so I recommended HENNGE to my friends."
       }
     ]
   },
   {
-    "title": "自己紹介[じこしょうかい]",
-    "seconds": 25,
+    "title": "私[わたし]たちのチーム",
+    "seconds": 20,
     "lines": [
       {
-        "jp": "私[わたし]は26歳[にじゅうろくさい]です。トルコから来[き]ました。",
-        "en": "I am 26 and I came from Turkey."
+        "jp": "私[わたし]たちは4人[よにん]のチームです。トルコ、ネパール、中国[ちゅうごく]から来[き]ました。3つ[みっつ]の国[くに]から1つ[ひとつ]のチームです。",
+        "en": "We are a team of four from Turkey, Nepal and China: 3 countries, 1 team."
       },
       {
-        "jp": "大学[だいがく]でコンピューター工学[こうがく]を勉強[べんきょう]して、3年間[さんねんかん]エンジニアとして働[はたら]きました。",
-        "en": "I studied computer engineering and worked as an engineer for 3 years."
-      },
-      {
-        "jp": "今[いま]は日本[にほん]で日本語[にほんご]を勉強[べんきょう]しています。",
-        "en": "Now I am studying Japanese in Japan."
-      },
-      {
-        "jp": "どうして友[とも]だちにHENNGEをすすめたのか、この発表[はっぴょう]でわかります。",
-        "en": "You will learn why I recommended HENNGE to my friends."
+        "jp": "なぜ日本[にほん]？ なぜHENNGE？ この答[こた]えは、発表[はっぴょう]の最後[さいご]にわかります。",
+        "en": "Why Japan? Why HENNGE? You will find out at the end of the presentation."
       }
     ]
   },
   {
     "title": "お願[ねが]い",
-    "seconds": 15,
+    "seconds": 20,
     "lines": [
       {
         "jp": "わからないところがあったら、いつでも聞[き]いてください。",
@@ -94,6 +90,10 @@ export const SCRIPT_SECTIONS = [
       {
         "jp": "私[わたし]はときどき速[はや]く話[はな]してしまいます。「ゆっくり」と言[い]ってください。",
         "en": "I sometimes speak fast. Please say \"yukkuri\"."
+      },
+      {
+        "jp": "わからないところも、よく聞[き]いてください。日本語[にほんご]がわかるようになって、HENNGEのこともわかるようになります。",
+        "en": "Please listen carefully even to the parts you don't understand. You will come to understand Japanese and get to know HENNGE."
       },
       {
         "jp": "何回[なんかい]でも、よろこんで説明[せつめい]します。",
@@ -110,24 +110,24 @@ export const SCRIPT_SECTIONS = [
         "en": "Do you all use email every day?"
       },
       {
-        "jp": "(▶) パスワードを忘[わす]れたことがありますか？ 私[わたし]もよく忘[わす]れます。",
-        "en": "Have you ever forgotten a password? I often do too."
+        "jp": "(▶) パスワードを忘[わす]れますか？ 私[わたし]はよく忘[わす]れます…。",
+        "en": "Do you forget your passwords? I often forget them..."
       },
       {
         "jp": "(▶) 会社[かいしゃ]のメールや情報[じょうほう]は、とても大切[たいせつ]です。だから、安全[あんぜん]に守[まも]らなければなりません。",
         "en": "Company email and information are important, so they must be protected."
       },
       {
-        "jp": "(▶) あぶないものもあります。ウイルスは、パソコンを壊[こわ]す悪[わる]いプログラムです。",
-        "en": "There are dangers too. A virus is a bad program that breaks your PC."
+        "jp": "(▶) あぶないものもあります。ウイルス（Virus）は、パソコンを壊[こわ]す悪[わる]いプログラムです。",
+        "en": "There are also dangers. A virus is a bad program that breaks your computer."
       },
       {
-        "jp": "にせのメールは、本物[ほんもの]みたいな、うそのメールです。",
-        "en": "A fake email looks real but is a lie (phishing)."
+        "jp": "にせのメール（Phishing）は、本物[ほんもの]みたいな、うそのメールです。",
+        "en": "Phishing is a fake email that looks real."
       },
       {
-        "jp": "パスワードを盗[ぬす]まれると、知[し]らない人[ひと]が使[つか]います。とてもあぶないです。",
-        "en": "If your password is stolen, a stranger can use it. Very dangerous."
+        "jp": "パスワードを盗[ぬす]まれる（Password Theft）と、知[し]らない人[ひと]が使[つか]います。とてもあぶないです。",
+        "en": "If your password is stolen (password theft), a stranger uses it. Very dangerous."
       }
     ]
   },
@@ -136,28 +136,32 @@ export const SCRIPT_SECTIONS = [
     "seconds": 25,
     "lines": [
       {
-        "jp": "私[わたし]はエンジニアなので、セキュリティに興味[きょうみ]を持[も]ちました。",
-        "en": "I am an engineer, so I became interested in security."
+        "jp": "私[わたし]はエンジニアなので、セキュリティとクラウドに興味[きょうみ]があります。",
+        "en": "Because I am an engineer, I am interested in security and cloud systems."
       },
       {
-        "jp": "それで、今回[こんかい]HENNGE株式会社[かぶしきがいしゃ]について調[しら]べました。",
-        "en": "So this time I researched HENNGE K.K."
+        "jp": "それで、HENNGEに出会[であ]いました。HENNGEは、これがとても上手[じょうず]です。",
+        "en": "That's how I met HENNGE. They are very good at this."
+      },
+      {
+        "jp": "だから、HENNGE株式会社[かぶしきがいしゃ]について調[しら]べはじめました。",
+        "en": "So I started researching HENNGE K.K."
       },
       {
         "jp": "(▶) 皆[みな]さん、この会社[かいしゃ]の名前[なまえ]を聞[き]いたことがありますか？",
-        "en": "Have you heard this company name?"
-      },
-      {
-        "jp": "(▶) 「HENNGE」という名前[なまえ]は、日本語[にほんご]の「変化[へんげ]」から来[き]ています。",
-        "en": "The name HENNGE comes from the Japanese word \"henge\" (change)."
+        "en": "Have you ever heard this company's name?"
       }
     ]
   },
   {
     "title": "会社[かいしゃ]について",
-    "seconds": 30,
+    "seconds": 35,
     "question": 1,
     "lines": [
+      {
+        "jp": "「HENNGE」という名前[なまえ]は、日本語[にほんご]の「変化[へんげ]」から来[き]ています。変[か]わっていく会社[かいしゃ]、という意味[いみ]です。",
+        "en": "The name HENNGE comes from the Japanese word 変化 (henge, change). It means a company that keeps changing."
+      },
       {
         "jp": "HENNGEは1996年[ねん]11月[じゅういちがつ]5日[いつか]に設立[せつりつ]されました。だいたい30年[さんじゅうねん]前[まえ]です。",
         "en": "HENNGE was founded on Nov 5, 1996, about 30 years ago."
@@ -171,8 +175,8 @@ export const SCRIPT_SECTIONS = [
         "en": "In the same year it was listed on the stock market."
       },
       {
-        "jp": "本社[ほんしゃ]は東京[とうきょう]の渋谷[しぶや]にあります。今[いま]は日本[にほん]と海外[かいがい]でサービスをしています。",
-        "en": "The head office is in Shibuya, Tokyo. It serves Japan and overseas."
+        "jp": "本社[ほんしゃ]は東京[とうきょう]の渋谷[しぶや]にあります。HDEからHENNGEになって、今[いま]は日本[にほん]・台湾[たいわん]など、世界[せかい]でサービスをしています。",
+        "en": "HQ is in Shibuya, Tokyo. From HDE to HENNGE, and now it serves the world (Japan, Taiwan, etc.)."
       }
     ]
   },
@@ -186,19 +190,19 @@ export const SCRIPT_SECTIONS = [
         "en": "Its business is cloud security. The service is called HENNGE One."
       },
       {
-        "jp": "会社[かいしゃ]のメールや情報[じょうほう]を安全[あんぜん]に守[まも]ります。",
+        "jp": "(▶) 会社[かいしゃ]のメールや情報[じょうほう]を安全[あんぜん]に守[まも]ります。",
         "en": "It keeps company email and information safe."
       },
       {
-        "jp": "会社[かいしゃ]の外[そと]からも、安全[あんぜん]にログインできます。",
+        "jp": "(▶) 会社[かいしゃ]の外[そと]からも、安全[あんぜん]にログインできます。",
         "en": "You can log in safely from outside the office."
       },
       {
-        "jp": "1回[いっかい]のログインで、いろいろなクラウドサービスが使[つか]えます。",
+        "jp": "(▶) 1回[いっかい]のログインで、いろいろなクラウドサービスが使[つか]えます。",
         "en": "With one login you can use many cloud services."
       },
       {
-        "jp": "日本[にほん]だけでなく、海外[かいがい]にも提供[ていきょう]しています。",
+        "jp": "(▶) 日本[にほん]だけでなく、海外[かいがい]にも提供[ていきょう]しています。",
         "en": "It provides services not only in Japan but also overseas."
       }
     ]
@@ -209,8 +213,8 @@ export const SCRIPT_SECTIONS = [
     "question": 3,
     "lines": [
       {
-        "jp": "職種[しょくしゅ]は、営業[えいぎょう]とITがあります。",
-        "en": "The job types are sales and IT."
+        "jp": "HENNGEで働[はたら]くには、2つ[ふたつ]の道[みち]があります。営業[えいぎょう]とITです。",
+        "en": "There are two job tracks at HENNGE: sales and IT."
       },
       {
         "jp": "営業[えいぎょう]は、お客[きゃく]さんに会[あ]って、サービスを紹介[しょうかい]する仕事[しごと]です。",
@@ -221,12 +225,12 @@ export const SCRIPT_SECTIONS = [
         "en": "IT builds and fixes systems. Engineers speak English."
       },
       {
-        "jp": "在宅勤務[ざいたくきんむ]は週[しゅう]に2日[ふつか]です。会社[かいしゃ]には週[しゅう]3日[みっか]行[い]きます。これは例[れい]です。",
-        "en": "Remote work is 2 days a week, 3 days at the office. This is an example."
+        "jp": "在宅勤務[ざいたくきんむ]は週[しゅう]に2日[ふつか]です。会社[かいしゃ]には週[しゅう]3日[みっか]行[い]きます。土曜日[どようび]と日曜日[にちようび]は休[やす]みです。",
+        "en": "Two days a week from home, three at the office (example). Saturday and Sunday off."
       },
       {
-        "jp": "電車[でんしゃ]に乗[の]らない日[ひ]があるので、便利[べんり]だと思[おも]います。土日[どにち]は休[やす]みです。",
-        "en": "There are days without the train, so it is convenient. Weekends are off."
+        "jp": "(▶) 電車[でんしゃ]に乗[の]らない日[ひ]があるので、とても便利[べんり]です。",
+        "en": "There are days without the train, so it's very convenient."
       }
     ]
   },
@@ -240,20 +244,20 @@ export const SCRIPT_SECTIONS = [
         "en": "How much do you think the salary is?"
       },
       {
-        "jp": "(▶) HENNGEの平均年収[へいきんねんしゅう]は、だいたい550万円[まんえん]です。",
-        "en": "HENNGE average yearly income is about 5.5 million yen."
+        "jp": "(▶) 日本[にほん]の平均[へいきん]は460万円[まんえん]です。HENNGEは、日本[にほん]の平均[へいきん]よりずっと高[たか]いです。",
+        "en": "Japan's average is ¥4.6M. HENNGE is much higher than that."
       },
       {
-        "jp": "日本[にほん]の平均[へいきん]は460万円[まんえん]、ITの会社[かいしゃ]の平均[へいきん]は650万円[まんえん]ぐらいです。",
-        "en": "Japan average is 4.6M yen; IT companies about 6.5M yen."
+        "jp": "(▶) HENNGEは、だいたい550万円[まんえん]です。",
+        "en": "HENNGE is about ¥5.5M."
       },
       {
-        "jp": "(▶) ですから、日本[にほん]の平均[へいきん]より高[たか]いですが、ITの中[なか]では普通[ふつう]ぐらいです。",
-        "en": "So it is higher than the Japan average, but about normal for IT."
+        "jp": "(▶) でも、ITの会社[かいしゃ]の平均[へいきん]は650万円[まんえん]です。HENNGEは、ITの平均[へいきん]より低[ひく]いです。",
+        "en": "But the IT average is ¥6.5M, so HENNGE is lower than the IT average."
       },
       {
-        "jp": "数字[すうじ]は国税庁[こくぜいちょう]のデータです。くわしく知[し]りたい人[ひと]は、単語[たんご]リストの34番[ばん]のリンクを見[み]てください。",
-        "en": "The numbers are from the National Tax Agency. If you are curious, open the link at #34 in the word list."
+        "jp": "くわしく見[み]たい人[ひと]は、単語[たんご]リストの34番[ばん]のリンクへ。",
+        "en": "If you want details, see the link at number 34 in the word list."
       }
     ]
   },
@@ -286,24 +290,20 @@ export const SCRIPT_SECTIONS = [
     "question": 5,
     "lines": [
       {
-        "jp": "HENNGEでは、外国人[がいこくじん]もたくさん働[はたら]いています。",
-        "en": "Many foreigners work at HENNGE."
+        "jp": "HENNGEでは、外国人[がいこくじん]もたくさん働[はたら]いています。会社[かいしゃ]全体[ぜんたい]では20%です。",
+        "en": "Many foreigners work at HENNGE: 20% of all staff."
       },
       {
-        "jp": "外国籍[がいこくせき]社員[しゃいん]の割合[わりあい]は20%です。日本[にほん]の会社[かいしゃ]の中[なか]では、外国人[がいこくじん]がとても多[おお]い会社[かいしゃ]です。",
-        "en": "20% of all employees are foreign — one of the highest ratios among companies in Japan."
+        "jp": "(▶) では、IT・エンジニアリングでは、外国人[がいこくじん]の割合[わりあい]はどのくらいだと思[おも]いますか？",
+        "en": "Then, in IT & engineering, what share of staff do you think is foreign?"
       },
       {
-        "jp": "(▶) そして、エンジニアは、なんと88%が外国人[がいこくじん]です。これは本当[ほんとう]に多[おお]いですね！",
-        "en": "And amazingly, 88% of engineers are foreign. That is really a lot!"
+        "jp": "(▶) なんと88%です！ 本当[ほんとう]に多[おお]いですね。",
+        "en": "An amazing 88%! Really a lot."
       },
       {
-        "jp": "仕事[しごと]のコミュニケーションは英語[えいご]です。",
-        "en": "English is used at work."
-      },
-      {
-        "jp": "(▶) ですから、日本語[にほんご]がまだ上手[じょうず]じゃなくても、働[はたら]けるかもしれません。",
-        "en": "So you might be able to work there even if your Japanese is not great yet."
+        "jp": "(▶) 仕事[しごと]のコミュニケーションは英語[えいご]です。英語[えいご]で働[はたら]けます！ 日本語[にほんご]がまだ上手[じょうず]じゃなくても、大丈夫[だいじょうぶ]かもしれません。",
+        "en": "Work communication is in English, so you can work in English, even if your Japanese isn't good yet."
       }
     ]
   },
@@ -324,8 +324,12 @@ export const SCRIPT_SECTIONS = [
         "en": "My impression: I was surprised there are so many foreign engineers."
       },
       {
-        "jp": "私[わたし]もエンジニアなので、いつかこんな会社[かいしゃ]で働[はたら]いてみたいです。",
-        "en": "As an engineer, I would like to work at a company like this someday."
+        "jp": "(▶) 私[わたし]はエンジニアなので、いつかこんな会社[かいしゃ]で働[はたら]いてみたいです。",
+        "en": "As an engineer, I'd like to work at a company like this someday."
+      },
+      {
+        "jp": "(▶) （みんなで）私[わたし]たちはHENNGEで働[はたら]きたいです！",
+        "en": "(All together) We want to work at HENNGE!"
       }
     ]
   },

@@ -1,5 +1,6 @@
 <script setup>
 import Slide from '@/components/deck/Slide.vue'
+import PixelPic from '@/components/pixel/PixelPic.vue'
 import Flag from '@/components/pixel/Flag.vue'
 import PixelSprite from '@/components/pixel/PixelSprite.vue'
 import { useSlideSteps } from '@/composables/useSlideSteps.js'
@@ -33,7 +34,7 @@ const { frag } = useSlideSteps()
             <div class="say">ありがとう！<small>谢谢！</small></div>
           </div>
         </div>
-        <div class="thx-msg" :class="frag(4)"><ruby>一緒<rt>いっしょ</rt></ruby>にがんばってくれて、ありがとう！ 🙇</div>
+        <div class="thx-msg" :class="frag(4)"><ruby>一緒<rt>いっしょ</rt></ruby>にがんばってくれて、ありがとう！<PixelPic name="happy" class="bob" :size="40" /></div>
       </div>
       <div class="sparkles"><i style="--x:8%;--y:30%"></i><i style="--x:90%;--y:50%"></i><i style="--x:20%;--y:85%"></i><i style="--x:75%;--y:88%"></i><i style="--x:50%;--y:6%"></i></div>
     </div>

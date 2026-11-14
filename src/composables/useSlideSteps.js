@@ -8,6 +8,6 @@ import { useSlideContext } from './useSlideContext.js'
  */
 export function useSlideSteps() {
   const { step } = useSlideContext()
-  const frag = (n) => ({ frag: true, on: step.value >= n })
+  const frag = (n) => ({ frag: true, [`fs${n}`]: true, on: step.value >= n })
   return { frag, step }
 }
